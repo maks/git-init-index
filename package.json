@@ -1,0 +1,23 @@
+{
+  "name": "git-init-index",
+  "version": "0.0.1",
+  "description": "initialise a git index",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maks/git-init-index.git"
+  },
+  "keywords": [
+    "git",
+    "index"
+  ],
+  "author": "Maksim Lin <maks@manichord.com>",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "dependencies": {
+    "git-walk-tree": "*"
+  }
+}
